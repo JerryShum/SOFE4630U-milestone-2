@@ -13,7 +13,7 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"]=files[0];
 
 # Set the project_id with your project ID
 project_id="project-2193e630-2541-4006-90b";
-topic_name = "smartMeter";   # change it for your topic name if needed
+topic_name = "designTopic";   # change it for your topic name if needed
 
 # create a publisher and get the topic path for the publisher
 publisher = pubsub_v1.PublisherClient()
